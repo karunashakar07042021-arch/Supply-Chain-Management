@@ -8,4 +8,3 @@ Expectations of Stakeholders are:-
 3.	What is the Order delivery status over Time?
 4 What are the Highest OTIF Performances?
 4.	Do something with Key Influencers and other advanced visualizations.
-These are some of the features stakeholders want from their Data Analyst. You have to add your own creative features as well.
