@@ -1,19 +1,27 @@
 # 📦 Supply Chain Management (SCM) – Power BI Project
-📌 Project Title
-Supply Chain Management Performance Analysis using Power BI
-📖 Project Overview
-This project focuses on analyzing and visualizing end-to-end supply chain operations to improve delivery performance, operational efficiency, and decision-making. Using Excel and Power BI, raw transactional supply chain data is transformed into interactive dashboards that provide insights into On-Time In-Full (OTIF) performance, delivery status trends, and key operational bottlenecks.
-The dashboard helps stakeholders monitor KPIs, evaluate delivery efficiency, identify risks, and implement data-driven improvements across procurement, logistics, and distribution processes.
+# 📌 Project Overview
+
+The Supply Chain Management Power BI Project focuses on analyzing and visualizing end-to-end supply chain operations to improve delivery performance, operational efficiency, and decision-making.
+
+The dashboard integrates data related to orders, customers, salespersons, service channels, teams, and cities to provide real-time insights into On-Time In-Full (OTIF) performance. Using Power BI, raw transactional data is transformed into interactive visual reports that help identify bottlenecks, control delays, and enhance customer satisfaction.
 ________________________________________
 # 🎯 Project Objectives
-# Monitor Supply Chain Performance
-	Track KPIs such as OTIF, lead time, early, on-time, and late deliveries
-# Improve Demand & Supply Planning
-	Analyze historical trends to support forecasting and planning
-# Increase End-to-End Visibility
-	Provide centralized, real-time performance insights
-# Support Strategic Decision-Making
-	Identify risks, inefficiencies, and improvement opportunities
+
+Monitor key supply chain KPIs such as:
+
+On-time delivery
+
+Early delivery
+
+Late delivery
+
+Analyze OTIF performance over time
+
+Improve demand and supply planning using historical trends
+
+Increase visibility across the supply chain
+
+Support strategic and operational decision-making
 ________________________________________
 # 🧩 Problem Statement
 OTIF (On-Time In-Full) is a critical logistics metric measuring a supplier’s ability to deliver orders on time and in full quantity.
@@ -23,76 +31,152 @@ Using order, customer, salesperson, city, and delivery data, this project analyz
 3.	Highest OTIF-performing entities
 4.	Key influencers affecting delivery outcomes
 ________________________________________
-# 🧾 Key Attributes
-#  Attribute	Description:
-Order Date:	Date order was received,
-Scheduled Delivery Date:	Planned delivery date,
-Actual Delivery Date:	Actual delivery completion date,
-Salesperson / Team:	Sales hierarchy,
-Customer / City	Customer and location details,
-Service Channel	Distribution/service type
-Returns: Returned orders
+# 🧾 Dataset Attributes
+
+Key columns used in the analysis include:
+
+Order Date
+
+Order ID
+
+Scheduled Delivery Date
+
+Actual Delivery Date
+
+Salesperson & Team
+
+Customer
+
+Service Channel
+
+City
+
+Returns
+
+Missing data analysis revealed:
+
+~0.44% missing values indicating cancelled or undelivered orders
+
+Rows with missing scheduled delivery dates were removed
 ________________________________________
-#  🛠️ Tools & Technologies
-Excel – Data cleaning and preprocessing
-Power BI –
-Data modeling (Snowflake schema)
+#  🛠 Tools & Technologies
+
+Microsoft Excel
+
+Data cleaning and preprocessing
+
+Power BI
+
+Data modeling
+
 DAX calculations
-Interactive dashboards and visualizations
+
+Interactive dashboard creation
+
+Power Query
+
+ETL operations
 ________________________________________
 # 🔄 Data Preprocessing
-•	Removed duplicates and handled missing values
-•	Standardized date formats
-•	Created Fact and Dimension tables
-•	Derived Delivery Status:
-o	Early
-o	On Time
-o	Late
-•	Identified missing delivery records as cancelled or undelivered orders
+Removed duplicates and handled missing values
+
+Standardized date formats
+
+Converted data into Fact and Dimension tables
+
+Created a Delivery Status column:
+
+Early
+
+On Time
+
+Late
 ________________________________________
 
 #  📊 Analysis & Visualizations
-#  Overall Delivery Performance
-•	Early Deliveries: 58.64%
-•	On-Time Deliveries: 19.84%
-•	Late Deliveries: 21.53%
-# Key Analysis Dimensions
-•	Month-wise delivery trends
-•	Salesperson & team performance
-•	Customer repeat behavior
-•	City-wise delivery efficiency
-•	Service channel impact
+# Overall Delivery Performance
+
+Early Deliveries: 58.64%
+
+On-Time Deliveries: 19.84%
+
+Late Deliveries: 21.53%
+
+# Key Visuals
+
+Monthly delivery trends
+
+Salesperson-wise delivery performance
+
+City-wise and customer-wise deliveries
+
+Service channel and team analysis
+
+Early, on-time, and late delivery breakdowns
 ________________________________________
-# 🔍 Analytical Insights
+# 🔍 Insights Summary
+# Early Deliveries
+
+Highest in May, July, March
+
+Strong performers: BCA, BCA-CMD, ITJ
+
+Major cities: Oklahoma City, Baton Rouge
+
+# On-Time Deliveries
+
+Peaks in May, July, February
+
+Best salespersons: ORL, TUB, PLH
+
+Consistent cities: Oklahoma City, Cincinnati
+
+# Late Deliveries
+
+Highest in April, February, March
+
+Problem salespersons: CAN, TAI, MAF
+
+Critical locations: Jurupa Valley, Oklahoma City
+________________________________________
+# 📈 Advanced Analytics
 # Descriptive Analysis
-•	Early deliveries peak in May, July, March
-•	On-time deliveries peak in May, July, February
-•	Late deliveries peak in April, February, March
+
+Summarizes delivery performance trends across all dimensions.
+
 # Diagnostic Analysis
-•	Seasonal demand spikes impact Q1–Q2 performance
-•	Certain salespersons and teams are consistently linked to delays
-•	Jurupa Valley and Oklahoma City show repeated delivery issues
+
+Identifies root causes such as:
+
+Seasonal demand spikes
+
+City-level logistics constraints
+
+Checkout and scheduling congestion
+
+Inconsistent team execution
+
 # Predictive Analysis
-•	Late deliveries likely to increase in Feb–Apr
-•	High-risk customers identified based on historical delays
-•	Performance instability expected without intervention
+
+Higher risk of late deliveries in Feb–Apr
+
+Jurupa Valley likely to remain a delay hotspot
+
+Certain customers consistently face delays
+
 # Prescriptive Analysis
-•	Reallocate resources during high-risk months
-•	Optimize routes for delay-prone cities
-•	Reduce checkout congestion (SM 02–04 time slots)
-•	Provide targeted training for underperforming salespersons
+
+Reallocate resources during high-risk months
+
+Optimize routes for delay-prone cities
+
+Train salespersons linked to late deliveries
+
+Implement alert systems for repeated delays
 ________________________________________
-# ✅ Key Conclusions
-•	Excel + Power BI is effective for end-to-end SCM analytics
-•	Delivery efficiency varies significantly by month, city, team, and salesperson
-•	Replicating best practices from high-performing periods can reduce delays
-•	Proactive planning and predictive monitoring can significantly improve OTIF
-________________________________________
-# 🚀 Business Impact
-•	Reduced late deliveries
-•	Improved customer satisfaction
-•	Better operational consistency
-•	Scalable and data-driven supply chain decisions
+# ✅ Conclusion
+
+This project demonstrates how Excel and Power BI can be effectively used for end-to-end supply chain analytics. By addressing seasonal risks, city-level bottlenecks, and performance inconsistencies, organizations can significantly improve delivery reliability, OTIF performance, and customer satisfaction.
 ________________________________________
 # 📌 Author
 # Karuna Shakar M
