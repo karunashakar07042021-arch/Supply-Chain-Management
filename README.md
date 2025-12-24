@@ -7,13 +7,13 @@ The dashboard helps stakeholders monitor KPIs, evaluate delivery efficiency, ide
 ________________________________________
 # 🎯 Project Objectives
 # Monitor Supply Chain Performance
-o	Track KPIs such as OTIF, lead time, early, on-time, and late deliveries
+	Track KPIs such as OTIF, lead time, early, on-time, and late deliveries
 # Improve Demand & Supply Planning
-o	Analyze historical trends to support forecasting and planning
+	Analyze historical trends to support forecasting and planning
 # Increase End-to-End Visibility
-o	Provide centralized, real-time performance insights
+	Provide centralized, real-time performance insights
 # Support Strategic Decision-Making
-o	Identify risks, inefficiencies, and improvement opportunities
+	Identify risks, inefficiencies, and improvement opportunities
 ________________________________________
 # 🧩 Problem Statement
 OTIF (On-Time In-Full) is a critical logistics metric measuring a supplier’s ability to deliver orders on time and in full quantity.
@@ -23,29 +23,24 @@ Using order, customer, salesperson, city, and delivery data, this project analyz
 3.	Highest OTIF-performing entities
 4.	Key influencers affecting delivery outcomes
 ________________________________________
-# 🗂️ Data Source
-•	Source: GitHub
-•	Timeline: 2019–2020
-•	Domain: Supply Chain Management
-________________________________________
 # 🧾 Key Attributes
-Attribute	Description
-Order Date	Date order was received
-Scheduled Delivery Date	Planned delivery date
-Actual Delivery Date	Actual delivery completion date
-Salesperson / Team	Sales hierarchy
-Customer / City	Customer and location details
+#  Attribute	Description:
+Order Date:	Date order was received,
+Scheduled Delivery Date:	Planned delivery date,
+Actual Delivery Date:	Actual delivery completion date,
+Salesperson / Team:	Sales hierarchy,
+Customer / City	Customer and location details,
 Service Channel	Distribution/service type
-Returns	Returned orders
+Returns: Returned orders
 ________________________________________
 #  🛠️ Tools & Technologies
-o	Excel – Data cleaning and preprocessing
-o Power BI –
-o	Data modeling (Snowflake schema)
-o	DAX calculations
-o	Interactive dashboards and visualizations
+Excel – Data cleaning and preprocessing
+Power BI –
+Data modeling (Snowflake schema)
+DAX calculations
+Interactive dashboards and visualizations
 ________________________________________
-🔄 Data Preprocessing
+# 🔄 Data Preprocessing
 •	Removed duplicates and handled missing values
 •	Standardized date formats
 •	Created Fact and Dimension tables
@@ -56,50 +51,50 @@ o	Late
 •	Identified missing delivery records as cancelled or undelivered orders
 ________________________________________
 
-📊 Analysis & Visualizations
-Overall Delivery Performance
+#  📊 Analysis & Visualizations
+#  Overall Delivery Performance
 •	Early Deliveries: 58.64%
 •	On-Time Deliveries: 19.84%
 •	Late Deliveries: 21.53%
-Key Analysis Dimensions
+# Key Analysis Dimensions
 •	Month-wise delivery trends
 •	Salesperson & team performance
 •	Customer repeat behavior
 •	City-wise delivery efficiency
 •	Service channel impact
 ________________________________________
-🔍 Analytical Insights
-Descriptive Analysis
+# 🔍 Analytical Insights
+# Descriptive Analysis
 •	Early deliveries peak in May, July, March
 •	On-time deliveries peak in May, July, February
 •	Late deliveries peak in April, February, March
-Diagnostic Analysis
+# Diagnostic Analysis
 •	Seasonal demand spikes impact Q1–Q2 performance
 •	Certain salespersons and teams are consistently linked to delays
 •	Jurupa Valley and Oklahoma City show repeated delivery issues
-Predictive Analysis
+# Predictive Analysis
 •	Late deliveries likely to increase in Feb–Apr
 •	High-risk customers identified based on historical delays
 •	Performance instability expected without intervention
-Prescriptive Analysis
+# Prescriptive Analysis
 •	Reallocate resources during high-risk months
 •	Optimize routes for delay-prone cities
 •	Reduce checkout congestion (SM 02–04 time slots)
 •	Provide targeted training for underperforming salespersons
 ________________________________________
-✅ Key Conclusions
+# ✅ Key Conclusions
 •	Excel + Power BI is effective for end-to-end SCM analytics
 •	Delivery efficiency varies significantly by month, city, team, and salesperson
 •	Replicating best practices from high-performing periods can reduce delays
 •	Proactive planning and predictive monitoring can significantly improve OTIF
 ________________________________________
-🚀 Business Impact
+# 🚀 Business Impact
 •	Reduced late deliveries
 •	Improved customer satisfaction
 •	Better operational consistency
 •	Scalable and data-driven supply chain decisions
 ________________________________________
-📌 Author
-Karuna Shakar M
-Supply Chain Analytics | Power BI
-s.
+# 📌 Author
+# Karuna Shakar M
+# Supply Chain Analytics | AI - Driven Data Analysis (Power BI)
+
