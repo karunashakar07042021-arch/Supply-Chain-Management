@@ -180,5 +180,5 @@ This project demonstrates how Excel and Power BI can be effectively used for end
 ________________________________________
 # 📌 Author
 # Karuna Shakar M
-# Supply Chain Analytics | AI - Driven Data Analysis (Power BI)
+AI-Driven Data Analyst || Supply Chain Analytics ||  BI Developer || Business Intelligence || Power BI ||Tableau || Looker || SQL || Python || Sigma || Snowflake || Java Script || HTML || Freelancer
 
