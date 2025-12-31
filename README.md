@@ -31,34 +31,6 @@ Using order, customer, salesperson, city, and delivery data, this project analyz
 3.	Highest OTIF-performing entities
 4.	Key influencers affecting delivery outcomes
 ________________________________________
-# 🧾 Dataset Attributes
-
-Key columns used in the analysis include:
-
-Order Date
-
-Order ID
-
-Scheduled Delivery Date
-
-Actual Delivery Date
-
-Salesperson & Team
-
-Customer
-
-Service Channel
-
-City
-
-Returns
-
-Missing data analysis revealed:
-
-~0.44% missing values indicating cancelled or undelivered orders
-
-Rows with missing scheduled delivery dates were removed
-________________________________________
 #  🛠 Tools & Technologies
 
 Microsoft Excel
@@ -91,89 +63,6 @@ Early
 On Time
 
 Late
-________________________________________
-
-#  📊 Analysis & Visualizations
-# Overall Delivery Performance
-
-Early Deliveries: 58.64%
-
-On-Time Deliveries: 19.84%
-
-Late Deliveries: 21.53%
-
-# Key Visuals
-
-Monthly delivery trends
-
-Salesperson-wise delivery performance
-
-City-wise and customer-wise deliveries
-
-Service channel and team analysis
-
-Early, on-time, and late delivery breakdowns
-________________________________________
-# 🔍 Insights Summary
-# Early Deliveries
-
-Highest in May, July, March
-
-Strong performers: BCA, BCA-CMD, ITJ
-
-Major cities: Oklahoma City, Baton Rouge
-
-# On-Time Deliveries
-
-Peaks in May, July, February
-
-Best salespersons: ORL, TUB, PLH
-
-Consistent cities: Oklahoma City, Cincinnati
-
-# Late Deliveries
-
-Highest in April, February, March
-
-Problem salespersons: CAN, TAI, MAF
-
-Critical locations: Jurupa Valley, Oklahoma City
-________________________________________
-# 📈 Advanced Analytics
-# Descriptive Analysis
-
-Summarizes delivery performance trends across all dimensions.
-
-# Diagnostic Analysis
-
-Identifies root causes such as:
-
-Seasonal demand spikes
-
-City-level logistics constraints
-
-Checkout and scheduling congestion
-
-Inconsistent team execution
-
-# Predictive Analysis
-
-Higher risk of late deliveries in Feb–Apr
-
-Jurupa Valley likely to remain a delay hotspot
-
-Certain customers consistently face delays
-
-# Prescriptive Analysis
-
-Reallocate resources during high-risk months
-
-Optimize routes for delay-prone cities
-
-Train salespersons linked to late deliveries
-
-Implement alert systems for repeated delays
-________________________________________
 # ✅ Conclusion
 
 This project demonstrates how Excel and Power BI can be effectively used for end-to-end supply chain analytics. By addressing seasonal risks, city-level bottlenecks, and performance inconsistencies, organizations can significantly improve delivery reliability, OTIF performance, and customer satisfaction.
